@@ -14,9 +14,9 @@ def decrypt(list):
     return new_list
 
 try:
-    temp_data= urllib.request.urlopen("https://api.thingspeak.com/channels/616616/fields/1.json")
-    pulse_data = urllib.request.urlopen("https://api.thingspeak.com/channels/616617/fields/1.json")
-    motion_data = urllib.request.urlopen("https://api.thingspeak.com/channels/891950/fields/1.json")
+    temp_data= urllib.request.urlopen("https://api.thingspeak.com/channels//fields/1.json")
+    pulse_data = urllib.request.urlopen("https://api.thingspeak.com/channels//fields/1.json")
+    motion_data = urllib.request.urlopen("https://api.thingspeak.com/channels//fields/1.json")
 except:
     print("Check your Internet Connection")
 
