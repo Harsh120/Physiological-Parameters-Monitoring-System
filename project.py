@@ -13,9 +13,9 @@ write_to_file_path = "output.txt";
 output_file = open(write_to_file_path, "w+")
 ser = serial.Serial('com4', 9600)
 i=0
-baseURLtemp = 'https://api.thingspeak.com/update?api_key=VVVT6G6HVKXUOO8J&field'
-baseURLpulse = 'https://api.thingspeak.com/update?api_key=MS8P87GYK43D0U5Z&field'
-baseURLmotion = 'https://api.thingspeak.com/update?api_key=27BD9ZQZDLWDAXEC&field'
+baseURLtemp = 'https://api.thingspeak.com/update?api_key=&field'
+baseURLpulse = 'https://api.thingspeak.com/update?api_key=&field'
+baseURLmotion = 'https://api.thingspeak.com/update?api_key=&field'
 while True:
     print(' ')
     line = ser.readline().decode('utf-8').strip()
